@@ -19,3 +19,6 @@ BlobSight is a high-performance Ethereum monitoring tool designed to track Layer
 
 - Rust 1.54 or higher
 - An Ethereum node with WebSocket support (e.g., Infura, Alchemy)
+
+## Setup
+1. Install Cargo 
