@@ -15,6 +15,8 @@ BlobSight is a high-performance Ethereum monitoring tool designed to track Layer
 - Efficient data storage with RocksDB
 - RESTful API for querying transaction data and statistics
 
+![table](./media/analysis.png)
+
 ## Prerequisites
 
 - Rust 1.54 or higher
@@ -27,3 +29,11 @@ BlobSight is a high-performance Ethereum monitoring tool designed to track Layer
 export PATH="$HOME/.cargo/bin:$PATH"
 
 3. Clone the repository
+
+
+## Run
+1. Cargo Build
+cargo build
+
+2. Cargo Run
+cargo run -- --start-block [start_block_number] --end-block [end_block_number] --rpc-url [your_rpc_url_endpoint]
