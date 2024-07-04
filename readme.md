@@ -22,3 +22,8 @@ BlobSight is a high-performance Ethereum monitoring tool designed to track Layer
 
 ## Setup
 1. Install Cargo 
+
+2. Update Cargo in PATH
+export PATH="$HOME/.cargo/bin:$PATH"
+
+3. Clone the repository

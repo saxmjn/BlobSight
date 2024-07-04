@@ -1,0 +1,15 @@
+[package]
+name = "blobSight"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+web3 = "0.18.0"
+serde_json = "1.0.87"
+plotters = "0.3.3"
+structopt = "0.3.26"
+tokio = { version = "1.21.2", features = ["full"] }
+
+[[bin]]
+name = "blobSight"
+path = "main.rs"
